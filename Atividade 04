@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Digite 'sim' ou 'não':");
+        string input = Console.ReadLine();
+
+        // Usando Convert.ToBoolean com uma condição
+        bool resposta = Convert.ToBoolean(input.Equals("sim", StringComparison.OrdinalIgnoreCase));
+
+        Console.WriteLine("Valor da variável: " + resposta);
+    }
+}
