@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+  public static void Main(string[] args)
+  {
+    Console.WriteLine("Escreva um caractere:");
+    char texto = Convert.ToChar(Console.ReadLine());
+    Console.WriteLine("O valor é: " + texto);
+
+
+    Console.Write("Press any key to continue . . . ");
+    Console.ReadKey(true);
+  }
