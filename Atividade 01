@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Escreva um número inteiro:");
+        int num1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("O número é: " + num1);
+
+        Console.Write("Pressione qualquer tecla para continuar . . . ");
+        Console.ReadKey(true);
+    }
+}
