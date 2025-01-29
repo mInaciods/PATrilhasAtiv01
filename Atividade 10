@@ -1,0 +1,29 @@
+using System;
+
+class Program
+{
+  public static void Main(string[] args)
+  {
+    Console.Write("Digite o nome da sua rua: ");
+    string rua = Console.ReadLine();
+   
+    Console.Write("Digite o número da sua casa: ");
+    string numero = Console.ReadLine();
+
+    Console.Write("Digite o nome do bairro: ");
+    string bairro = Console.ReadLine();
+
+    Console.Write("Digite o nome da sua cidade: ");
+    string cidade= Console.ReadLine();
+
+    Console.Write("Digite o nome do seu estado: ");
+    string estado = Console.ReadLine();
+
+    Console.WriteLine("Você mora na rua " + rua + ", no número " + numero + ", no bairro " + bairro + ", na cidade " + cidade + ", no estado de " + estado + ".");
+
+
+
+    Console.Write("Press any key to continue . . . ");
+    Console.ReadKey(true);
+  }
+}
